@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 import mongoose from 'mongoose';
 import nodemailer from 'nodemailer';
-mongoose.connect('mongodb+srv://jaiminkhunt:Mukesh2422@cluster0.x3y9vkg.mongodb.net/sports',{useNewUrlParser:true,useUnifiedTopology:true});
+mongoose.connect('mongodb***',{useNewUrlParser:true,useUnifiedTopology:true});
 app.use(express.json());
 import cors from 'cors';
 app.use(cors())
